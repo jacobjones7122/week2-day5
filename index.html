@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Some Shapes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="input">
+        <form class="myForm">
+            Square Sides Length:<br>
+            <input type="number" name="Square Length" id="inputSquareLength"><br>
+        </form>
+            <button id="btnSquare">Generate Square</button>
+        <form class="myForm">    
+            <br>
+            <br>
+            Rectangle Width:<br>
+            <input type="number" name="Rectangle Width" id="inputRectangleWidth">
+            <br>
+            Rectangle Height:<br>
+            <input type="number" name="Rectangle Height" id="inputRectangleHeight"><br>
+        </form>
+            <button id="btnRectangle">Generate Rectangle</button>
+        <form class="myForm">
+            <br>
+            <br>
+            Triangle Height<br>
+            <input type="number" name="Triangle Height" id="inputTriangleHeight"><br>
+        </form>
+            <button id="btnTriangle">Generate Triangle</button>
+        <form class="myForm">    
+            <br>
+            <br>
+            Circle Radius:<br>
+            <input type="number" name="Circle Radius" id="inputCircleRadius"><br>
+        </form>
+            <button id="btnCircle">Generate Circle</button>
+    </div>
+    <div id="canvas"></div>
+    <div id="metricOutput">
+        <p id="shape">Shape: <span id="shapeText"></span></p>
+        <p id="height">Height: <span id="heightText"></span></p>
+        <p id="width">Width: <span id="widthText"></span></p>
+        <p id="radius">Radius: <span id="radiusText"></span></p>
+        <p id="perimeter">Perimeter: <span id="perimeterText"></span></p>
+        <p id="area">Area: <span id="areaText"></span></p>
+    </div>
+</body>
+</html>
